@@ -29,7 +29,8 @@ noremap <Leader>bb :UniteBookmarkAdd<cr>
 noremap <Leader>B :Unite -winheight=10 bookmark -prompt-direction=top<cr>
 
 " Nerdtree
-noremap <Leader>n <Plug>VinegarUp<CR>
+nnoremap <Leader>nf :NERDTreeFind<CR>
+nnoremap <Leader>nt :NERDTreeToggle<CR>
 
 " paste toggle
 noremap <F2> :set paste!<cr>
@@ -43,8 +44,6 @@ vnoremap <Leader>v :MultipleCursorsFind <C-R><C-W><CR>
 " Change the word under your cursor across the entire file
 nnoremap <Leader>v :MultipleCursorsFind <C-R><C-W><CR>
 
-
-
 " Window Navigation ------------------------------------------------------------
 " Use ctrl+(h|j|k|j) to move through open windows.
 map <C-h> <C-w>h
@@ -53,7 +52,7 @@ map <C-k> <C-w>k
 map <C-l> <C-w>l
 
 " Remote search highlighting
-map <silent><Leader>/ :nohls<CR>            " Clear search
+map <silent><Leader>sc :nohls<CR>            " Clear search
 
 " Disable cursor keys
 " inoremap <Up> <Nop>
@@ -107,6 +106,6 @@ autocmd FileType ruby nmap <buffer> <Leader>e <Plug>(xmpfilter-mark)<Plug>(xmpfi
 autocmd FileType ruby xmap <buffer> <Leader>e <Plug>(xmpfilter-mark)<Plug>(xmpfilter-run)
 autocmd FileType ruby imap <buffer> <Leader>e <Plug>(xmpfilter-mark)<Plug>(xmpfilter-run)
 
-" autocmd FileType ruby nmap <buffer> <Leader>x <Plug>(xmpfilter-run)
-" autocmd FileType ruby xmap <buffer> <Leader>x <Plug>(xmpfilter-run)
-" autocmd FileType ruby imap <buffer> <Leader>x <Plug>(xmpfilter-run)
+autocmd FileType ruby nmap <buffer> <Leader>x <Plug>(xmpfilter-run)
+autocmd FileType ruby xmap <buffer> <Leader>x <Plug>(xmpfilter-run)
+autocmd FileType ruby imap <buffer> <Leader>x <Plug>(xmpfilter-run)

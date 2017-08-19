@@ -14,9 +14,5 @@
 " map <silent> <F3> :call <SID>SwitchStyle()<CR>
 
 syntax enable
-" colorscheme base16-tomorrow
-source $CONFIG/../bundle/Smyck-Color-Scheme/smyck.vim
-
-let g:airline_theme='badwolf'
-
-highlight clear SignColumn
+colorscheme onedark
+let g:airline_theme='onedark'

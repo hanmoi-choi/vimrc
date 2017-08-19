@@ -7,7 +7,6 @@ call neobundle#begin(expand('~/.vim/bundle/'))
 " Let NeoBundle manage NeoBundle
 NeoBundleFetch 'Shougo/neobundle.vim'
 
-
 " I like my searches to be faster
 NeoBundle 'Shougo/vimproc', {
       \ 'build' : {
@@ -19,7 +18,7 @@ NeoBundle 'Shougo/vimproc', {
       \ }
 
 " Now for some bundles
-NeoBundle 'tpope/vim-fugitive'
+" NeoBundle 'tpope/vim-fugitive'
 NeoBundle 'Shougo/neoyank.vim'
 NeoBundle 'Shougo/unite.vim'
 NeoBundle 'Shougo/neomru.vim'
@@ -35,7 +34,7 @@ NeoBundle 'vim-airline/vim-airline-themes'
 " Editing
 NeoBundle 'tomtom/tcomment_vim'
 NeoBundle 'bitc/vim-bad-whitespace'
-" NeoBundle 'Shougo/neocomplete.vim'
+NeoBundle 'Shougo/neocomplete.vim'
 NeoBundle 'ervandew/supertab'
 NeoBundle 'tpope/vim-surround'
 NeoBundle 'tpope/vim-endwise'
@@ -49,14 +48,14 @@ NeoBundle 'w0rp/ale'
 
 " Navigation
 " NeoBundle 'Shougo/vimfiler.vim'
-" NeoBundle 'scrooloose/nerdtree'
+NeoBundle 'scrooloose/nerdtree'
 NeoBundle 'tpope/vim-vinegar'
 " NeoBundle 'markgandolfo/nerdtree-wget.vim'
 
 " Command dispatch/background
 NeoBundle 'tpope/vim-dispatch'
 
-NeoBundle 'vim-scripts/SyntaxRange'
+"NeoBundle 'vim-scripts/SyntaxRange'
 
 " Test running
 " NeoBundle 'thoughtbot/vim-rspec'
@@ -65,24 +64,24 @@ NeoBundle 'janko-m/vim-test'
 
 " Language
 NeoBundle 'tpope/vim-rails'
-NeoBundle 'haml.zip'
-NeoBundle 'cakebaker/scss-syntax.vim'
-NeoBundle 'kchmck/vim-coffee-script'
-NeoBundle 'yaymukund/vim-rabl'
+" NeoBundle 'haml.zip'
+" NeoBundle 'cakebaker/scss-syntax.vim'
+" NeoBundle 'kchmck/vim-coffee-script'
+" NeoBundle 'yaymukund/vim-rabl'
 NeoBundle 'tpope/vim-markdown'
-NeoBundle 'evanmiller/nginx-vim-syntax'
+" NeoBundle 'evanmiller/nginx-vim-syntax'
 NeoBundle "pangloss/vim-javascript"
 NeoBundle 'vim-ruby/vim-ruby'
 NeoBundle 'Keithbsmiley/rspec.vim'
-NeoBundle 'mustache/vim-mustache-handlebars'
-NeoBundle 'tpope/vim-git'
+" NeoBundle 'mustache/vim-mustache-handlebars'
+" NeoBundle 'tpope/vim-git'
 NeoBundle 'slim-template/vim-slim'
-NeoBundle 'elixir-lang/vim-elixir'
+" NeoBundle 'elixir-lang/vim-elixir'
 
 "
 " " Colours
 NeoBundle 'hukl/Smyck-Color-Scheme/'
-
+NeoBundle 'joshdick/onedark.vim'
 " plugin tools
 NeoBundle 'vim-scripts/Decho'
 
